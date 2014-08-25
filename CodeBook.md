@@ -1,16 +1,17 @@
 #Codeook for Course Project -  Getting and Cleaning Data
 ##Human Activity Recognition Using Smartphones Dataset Version 1.0
-##Orgnial datasets by:
+###Orgnial datasets by:
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory, DITEN - Università degli Studi di Genova. Via Opera Pia 11A, I-16145, Genoa, Italy. activityrecognition@smartlab.ws www.smartlab.ws
 
-## The aim of this Coursera project is to dvelope an R-Script (named as run_analysis.R), which could: 
+## The aim of this Coursera project is to:
+Dvelope an R-Script (named as run_analysis.R), which could create a tidy dataset - a datset containg mean for all the activities for all the subjects. For more details, please refer to the information given below.
 ##Input: 
 UCI HAR Dataset
 ##Ouput: 
-run_analysis.Output.txt, a Tidy dataset, contains average for each subject and activity. 
+###run_analysis.Output.txt:
+A tidy dataset, contains average for each subject and activity. 
 For variable names, kindly refer to the end of this file, and for scripts related information (how to run, variables etc.) please refer to README.md.
-
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
@@ -63,7 +64,8 @@ Physical activities, can have any of following 6 values:
 Subjects undergiong tests - can have ID's in the range 1-30.
 
 
-###Column-3-563: Features (refer to http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones):
+###Column-3-563: Features 
+(Please refer to http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones):
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
 
 Time related were captureded at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. 
